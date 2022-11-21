@@ -125,8 +125,9 @@ body{
 }
 
 .intro-image{
-    background-color: grey;
-    flex: 1;
+    display: flex;
+    width: 30%;
+    height: 30%;
 }
 /* main1 -end */
 
