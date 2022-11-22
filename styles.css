@@ -67,23 +67,28 @@ body{
 }
 
 .header-logo-image{
-    width: 17%;
+    width: 100px;
     height: auto;
+    padding: 0;
 }
 
 .left-links{
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
+
+    padding: 0;
 }
 
 .right-links{
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
+
     
     display: flex;
     gap: 48px;
+    justify-content: flex-start;
 }
 
 .intro{
@@ -91,7 +96,7 @@ body{
 }
 
 .webpage-info{
-    flex:1;
+    flex: 1 1 0;
 
     display: flex;
     flex-flow: column wrap;
@@ -126,8 +131,8 @@ body{
 
 .intro-image{
     display: flex;
-    width: 30%;
-    height: 30%;
+    width: 350px;
+    height: 300px;
 }
 /* main1 -end */
 
@@ -138,6 +143,8 @@ body{
     height: 400px;
     display: flex;
     flex-flow: column;
+
+    background-color:#747b88;
 }
 
 .info-header{
@@ -149,7 +156,7 @@ body{
 
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1f2937;
+    color: #e5e7eb;
 }
 
 .cards-with-images{
@@ -167,10 +174,32 @@ body{
     width: 150px;
     height: 150px;
 }
+.cat1{
+    width: 142px;
+    height: auto;
+    border-radius: 10px;
+}
+.cat2{
+    width: 142px;
+    height: auto;
+    border-radius: 10px;
+}
+.cat3{
+    width: 142px;
+    height: auto;
+    border-radius: 10px;
+}
+.cat4{
+    width: 142px;
+    height: auto;
+    border-radius: 10px;
+}
 
 .card-text{
     font-family: roboto;
     font-weight: 300;
+    color: #E5E7EB;
+    text-align: center;
 }
 /* main2 -end */
 
