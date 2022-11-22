@@ -5,7 +5,7 @@ A webpage project
 font used: 
     roboto - https://fonts.google.com/specimen/Roboto
 
-images used: 
+images used:
 -
     cat 1 (heart-cat): https://pixabay.com/users/cdd20-1193381/
 -
